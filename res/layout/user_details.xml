@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="510dip"
+    android:layout_marginTop="10dip"
+    android:background="#DDDDDD" >
+"
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="400dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="15dip"
+        android:text=""
+        android:textColor="#AA0000"
+        android:textSize="7pt" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_error"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="." />
+
+</RelativeLayout>
